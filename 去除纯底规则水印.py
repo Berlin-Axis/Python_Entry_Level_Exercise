@@ -1,7 +1,7 @@
 """
 不足之处
 - 只能去一些纯色底上的水印
--  水印必须是规则形状
+- 水印必须是规则形状
 - 框选水印后，需要按ESC键保存退出
 """
 
@@ -77,7 +77,7 @@ def remove_watermark_with_manual_mark(image_path):
     print("Mission accomplished!")
     save_path = "repaired_image.jpg"
     cv2.imwrite(save_path,repaired_img)
-    print(f"Saved in the current location.")
+    print("Saved in the current location.")
 
     cv2.destroyAllWindows()
 
